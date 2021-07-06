@@ -111,6 +111,7 @@ p {
     box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.1);
     margin: 1% 4%;
     border-radius: 5%;
+    padding: 30px;
 }
 
 .social-item {
@@ -118,8 +119,26 @@ p {
     text-align: center;
 }
 
+.social-details {
+    text-align: center;
+}
+
+.social-details h3 {
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.social-details p {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.special-h3 {
+    font-size: 50px;
+}
+
 footer {
-    padding: 20px 0 60px 0;
+    padding: 20px 0 100px 0;
     margin-top: 5%;
     text-align: center;
     background-color: #0B0D17;
