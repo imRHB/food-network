@@ -92,8 +92,8 @@ p {
 .recipie-item {
     width: 30%;
     margin: 2%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 5%;
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 6%;
 }
 
 .recipie-item img {
@@ -106,14 +106,15 @@ p {
 }
 
 .social-area {
-    width: 90%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 0 5%;
+    display: flex;
+    width: 100%;
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.1);
+    margin: 1% 4%;
     border-radius: 5%;
 }
 
 .social-item {
-    width: 30%;
+    width: 33.3%;
     text-align: center;
 }
 
