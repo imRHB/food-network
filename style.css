@@ -7,6 +7,13 @@ section {
     display: flex;
 }
 
+.my-recipies {
+    display: block;
+    text-align: center;
+    margin: 8% auto 2% auto;
+    width: 50%;
+}
+
 .flex-container {
     width: 50%;
 }
@@ -17,6 +24,14 @@ section {
 
 .orange-color {
     color: orange;
+}
+
+.grey-color {
+    color: grey;
+}
+
+.custom-color {
+    color: #828282;
 }
 
 h1 {
@@ -66,4 +81,26 @@ p {
 
 .middle-right {
     padding: 10% 10% 0 10%;
+}
+
+.recipie-list {
+    display: flex;
+    width: 96%;
+    margin: 2% 2%;
+}
+
+.recipie-item {
+    width: 30%;
+    margin: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5%;
+}
+
+.recipie-item img {
+    padding: 5%;
+    width: 90%;
+}
+
+.item-title, .item-details {
+    padding-left: 5%;
 }
